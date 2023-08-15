@@ -13,7 +13,7 @@ struct MC3_MathopiaApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StageView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

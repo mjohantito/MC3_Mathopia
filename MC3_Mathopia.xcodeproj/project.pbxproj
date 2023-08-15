@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C98AB7E52A8B681B00A4C991 /* StageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98AB7E42A8B681B00A4C991 /* StageView.swift */; };
 		C9FD5CDA2A8B630F000E525A /* MC3_MathopiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FD5CD92A8B630F000E525A /* MC3_MathopiaApp.swift */; };
 		C9FD5CDC2A8B630F000E525A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FD5CDB2A8B630F000E525A /* ContentView.swift */; };
 		C9FD5CDE2A8B6310000E525A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9FD5CDD2A8B6310000E525A /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C98AB7E42A8B681B00A4C991 /* StageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageView.swift; sourceTree = "<group>"; };
 		C9FD5CD62A8B630F000E525A /* MC3_Mathopia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MC3_Mathopia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9FD5CD92A8B630F000E525A /* MC3_MathopiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MC3_MathopiaApp.swift; sourceTree = "<group>"; };
 		C9FD5CDB2A8B630F000E525A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +38,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C98AB7E22A8B67D500A4C991 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C98AB7E32A8B67F300A4C991 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		C9FD5CCD2A8B630F000E525A = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +72,8 @@
 			isa = PBXGroup;
 			children = (
 				C9FD5CD92A8B630F000E525A /* MC3_MathopiaApp.swift */,
+				C98AB7E22A8B67D500A4C991 /* Model */,
+				C98AB7E32A8B67F300A4C991 /* ViewController */,
 				C9FD5CEC2A8B6418000E525A /* View */,
 				C9FD5CDD2A8B6310000E525A /* Assets.xcassets */,
 				C9FD5CE22A8B6310000E525A /* Persistence.swift */,
@@ -77,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				C9FD5CDB2A8B630F000E525A /* ContentView.swift */,
+				C98AB7E42A8B681B00A4C991 /* StageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -151,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C98AB7E52A8B681B00A4C991 /* StageView.swift in Sources */,
 				C9FD5CE32A8B6310000E525A /* Persistence.swift in Sources */,
 				C9FD5CDC2A8B630F000E525A /* ContentView.swift in Sources */,
 				C9FD5CE62A8B6310000E525A /* MC3_Mathopia.xcdatamodeld in Sources */,
