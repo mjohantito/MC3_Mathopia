@@ -13,6 +13,7 @@
 		C9FD5CE12A8B6310000E525A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9FD5CE02A8B6310000E525A /* Preview Assets.xcassets */; };
 		C9FD5CE32A8B6310000E525A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FD5CE22A8B6310000E525A /* Persistence.swift */; };
 		C9FD5CE62A8B6310000E525A /* MC3_Mathopia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9FD5CE42A8B6310000E525A /* MC3_Mathopia.xcdatamodeld */; };
+		FFF4E9E42A8B681500174E75 /* LandingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF4E9E32A8B681500174E75 /* LandingPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		C9FD5CE02A8B6310000E525A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C9FD5CE22A8B6310000E525A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		C9FD5CE52A8B6310000E525A /* MC3_Mathopia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MC3_Mathopia.xcdatamodel; sourceTree = "<group>"; };
+		FFF4E9E32A8B681500174E75 /* LandingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				C9FD5CDB2A8B630F000E525A /* ContentView.swift */,
+				FFF4E9E32A8B681500174E75 /* LandingPageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			files = (
 				C9FD5CE32A8B6310000E525A /* Persistence.swift in Sources */,
 				C9FD5CDC2A8B630F000E525A /* ContentView.swift in Sources */,
+				FFF4E9E42A8B681500174E75 /* LandingPageView.swift in Sources */,
 				C9FD5CE62A8B6310000E525A /* MC3_Mathopia.xcdatamodeld in Sources */,
 				C9FD5CDA2A8B630F000E525A /* MC3_MathopiaApp.swift in Sources */,
 			);
