@@ -7,20 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-
 		C99D0C282A8CC4B40004D826 /* StageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99D0C272A8CC4B40004D826 /* StageView.swift */; };
-		C99D0C2A2A8CC4E00004D826 /* LandingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99D0C292A8CC4E00004D826 /* LandingPageView.swift */; };
 		C9FD5CDA2A8B630F000E525A /* MC3_MathopiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FD5CD92A8B630F000E525A /* MC3_MathopiaApp.swift */; };
 		C9FD5CDC2A8B630F000E525A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FD5CDB2A8B630F000E525A /* ContentView.swift */; };
 		C9FD5CDE2A8B6310000E525A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9FD5CDD2A8B6310000E525A /* Assets.xcassets */; };
 		C9FD5CE12A8B6310000E525A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9FD5CE02A8B6310000E525A /* Preview Assets.xcassets */; };
 		C9FD5CE32A8B6310000E525A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FD5CE22A8B6310000E525A /* Persistence.swift */; };
 		C9FD5CE62A8B6310000E525A /* MC3_Mathopia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9FD5CE42A8B6310000E525A /* MC3_Mathopia.xcdatamodeld */; };
+		FFF4E9E72A8CC6A600174E75 /* LandingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF4E9E62A8CC6A600174E75 /* LandingPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C99D0C272A8CC4B40004D826 /* StageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageView.swift; sourceTree = "<group>"; };
-		FFF4E9E72A8CC6A600174E75 /* LandingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF4E9E62A8CC6A600174E75 /* LandingPageView.swift */; };
 		C9FD5CD62A8B630F000E525A /* MC3_Mathopia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MC3_Mathopia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9FD5CD92A8B630F000E525A /* MC3_MathopiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MC3_MathopiaApp.swift; sourceTree = "<group>"; };
 		C9FD5CDB2A8B630F000E525A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,7 +26,6 @@
 		C9FD5CE02A8B6310000E525A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C9FD5CE22A8B6310000E525A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		C9FD5CE52A8B6310000E525A /* MC3_Mathopia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MC3_Mathopia.xcdatamodel; sourceTree = "<group>"; };
-
 		FFF4E9E62A8CC6A600174E75 /* LandingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,20 +40,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C98AB7E22A8B67D500A4C991 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		C98AB7E32A8B67F300A4C991 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
 		C9FD5CCD2A8B630F000E525A = {
 			isa = PBXGroup;
 			children = (
@@ -77,8 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				C9FD5CD92A8B630F000E525A /* MC3_MathopiaApp.swift */,
-				C98AB7E22A8B67D500A4C991 /* Model */,
-				C98AB7E32A8B67F300A4C991 /* ViewController */,
 				C9FD5CEC2A8B6418000E525A /* View */,
 				C9FD5CDD2A8B6310000E525A /* Assets.xcassets */,
 				C9FD5CE22A8B6310000E525A /* Persistence.swift */,
