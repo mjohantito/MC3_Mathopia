@@ -14,15 +14,16 @@ struct StageView: View {
     @State var lvl3 = true
     @State var lvl4 = true
     
-    @State var LevelTitle1 = "Level 1"
-    @State var LevelTitle2 = "Level 2"
-    @State var LevelTitle3 = "Level 3"
-    @State var LevelTitle4 = "Level 4"
+    var LevelTitle1 = "Level 1"
+    var LevelTitle2 = "Level 2"
+    var LevelTitle3 = "Level 3"
+    var LevelTitle4 = "Level 4"
     
-    @State var LevelSubtitle1 = "Intro to Numbers"
-    @State var LevelSubtitle2 = "Numbers 1"
-    @State var LevelSubtitle3 = "Numbers 2"
-    @State var LevelSubtitle4 = "Think Number"
+    var LevelSubtitle1 = "Intro to Numbers"
+    var LevelSubtitle2 = "Numbers 1"
+    var LevelSubtitle3 = "Numbers 2"
+    var LevelSubtitle4 = "Think Number"
+    
     
     
     
@@ -110,7 +111,7 @@ struct StageView: View {
                                 
                             }
                         }
-                        .position(x:600, y:0)
+                        .position(x:600, y:30)
                         
                     } else {
                         Group{

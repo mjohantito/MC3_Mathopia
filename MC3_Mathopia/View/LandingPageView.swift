@@ -10,6 +10,7 @@ import SwiftUI
 //For Rounded Corner
 struct RoundedCorner: Shape {
     
+    
     var radius: CGFloat = .infinity
     var corners: UIRectCorner = .allCorners
     
@@ -26,6 +27,9 @@ extension View {
 }
 
 struct LandingPageView: View {
+    
+    
+    @State private var isShowingStageView = false
     
     
     var body: some View {
@@ -110,10 +114,7 @@ struct LandingPageView: View {
                                     .padding(.leading,40)
                                     .padding(.bottom,140)
                                 
-                                
-                                Button(action: {
-                                    
-                                }) {
+                                NavigationLink(destination: StageView()){
                                     HStack{
                                         
                                         Text("Start")
@@ -129,6 +130,7 @@ struct LandingPageView: View {
                                     .cornerRadius(72)
                                 }
                                 .padding(.leading,40)
+                                
                             }
                             
                         }
