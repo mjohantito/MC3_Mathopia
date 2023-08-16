@@ -9,8 +9,17 @@ import SwiftUI
 
 struct ViewContent: View {
     var body: some View {
-        ARViewRepresentable()
-            .ignoresSafeArea(.all)
+        NavigationStack{
+            HStack{
+                NavigationLink(destination: FirstQuestionView()) {
+                    Text("First Question")
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                }
+            }
+        }
     }
 }
 
