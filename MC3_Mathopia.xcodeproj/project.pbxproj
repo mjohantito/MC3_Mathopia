@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65C6D9A32A8B68EE00FAF390 /* Question1.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 65C6D9A22A8B68EE00FAF390 /* Question1.rcproject */; };
+		65C6D9A52A8B695C00FAF390 /* Question2.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 65C6D9A42A8B695C00FAF390 /* Question2.rcproject */; };
+		65C6D9AA2A8B6ECA00FAF390 /* ARViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C6D9A92A8B6ECA00FAF390 /* ARViewFactory.swift */; };
+		65C6D9AC2A8B7EA500FAF390 /* ARViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C6D9AB2A8B7EA500FAF390 /* ARViewRepresentable.swift */; };
+		65C6D9AE2A8B7FE000FAF390 /* ViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C6D9AD2A8B7FE000FAF390 /* ViewContent.swift */; };
+		65C6D9B22A8B830C00FAF390 /* FirstQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C6D9B12A8B830C00FAF390 /* FirstQuestionView.swift */; };
 		C9FD5CDA2A8B630F000E525A /* MC3_MathopiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FD5CD92A8B630F000E525A /* MC3_MathopiaApp.swift */; };
-		C9FD5CDC2A8B630F000E525A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FD5CDB2A8B630F000E525A /* ContentView.swift */; };
 		C9FD5CDE2A8B6310000E525A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9FD5CDD2A8B6310000E525A /* Assets.xcassets */; };
 		C9FD5CE12A8B6310000E525A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9FD5CE02A8B6310000E525A /* Preview Assets.xcassets */; };
 		C9FD5CE32A8B6310000E525A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FD5CE22A8B6310000E525A /* Persistence.swift */; };
@@ -16,9 +21,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65C6D9A22A8B68EE00FAF390 /* Question1.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Question1.rcproject; sourceTree = "<group>"; };
+		65C6D9A42A8B695C00FAF390 /* Question2.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Question2.rcproject; sourceTree = "<group>"; };
+		65C6D9A92A8B6ECA00FAF390 /* ARViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewFactory.swift; sourceTree = "<group>"; };
+		65C6D9AB2A8B7EA500FAF390 /* ARViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewRepresentable.swift; sourceTree = "<group>"; };
+		65C6D9AD2A8B7FE000FAF390 /* ViewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewContent.swift; sourceTree = "<group>"; };
+		65C6D9B12A8B830C00FAF390 /* FirstQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstQuestionView.swift; sourceTree = "<group>"; };
 		C9FD5CD62A8B630F000E525A /* MC3_Mathopia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MC3_Mathopia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9FD5CD92A8B630F000E525A /* MC3_MathopiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MC3_MathopiaApp.swift; sourceTree = "<group>"; };
-		C9FD5CDB2A8B630F000E525A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C9FD5CDD2A8B6310000E525A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9FD5CE02A8B6310000E525A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C9FD5CE22A8B6310000E525A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -36,6 +46,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65C6D9A12A8B68A400FAF390 /* QuestionModel */ = {
+			isa = PBXGroup;
+			children = (
+				65C6D9A22A8B68EE00FAF390 /* Question1.rcproject */,
+				65C6D9A42A8B695C00FAF390 /* Question2.rcproject */,
+			);
+			path = QuestionModel;
+			sourceTree = "<group>";
+		};
+		65C6D9B32A8B8A6400FAF390 /* ARView */ = {
+			isa = PBXGroup;
+			children = (
+				65C6D9A92A8B6ECA00FAF390 /* ARViewFactory.swift */,
+				65C6D9AB2A8B7EA500FAF390 /* ARViewRepresentable.swift */,
+			);
+			path = ARView;
+			sourceTree = "<group>";
+		};
+		65C6D9B42A8B8A7900FAF390 /* QuestionView */ = {
+			isa = PBXGroup;
+			children = (
+				65C6D9B12A8B830C00FAF390 /* FirstQuestionView.swift */,
+			);
+			path = QuestionView;
+			sourceTree = "<group>";
+		};
 		C9FD5CCD2A8B630F000E525A = {
 			isa = PBXGroup;
 			children = (
@@ -55,8 +91,10 @@
 		C9FD5CD82A8B630F000E525A /* MC3_Mathopia */ = {
 			isa = PBXGroup;
 			children = (
+				65C6D9A12A8B68A400FAF390 /* QuestionModel */,
 				C9FD5CD92A8B630F000E525A /* MC3_MathopiaApp.swift */,
 				C9FD5CEC2A8B6418000E525A /* View */,
+				65C6D9AD2A8B7FE000FAF390 /* ViewContent.swift */,
 				C9FD5CDD2A8B6310000E525A /* Assets.xcassets */,
 				C9FD5CE22A8B6310000E525A /* Persistence.swift */,
 				C9FD5CE42A8B6310000E525A /* MC3_Mathopia.xcdatamodeld */,
@@ -76,7 +114,8 @@
 		C9FD5CEC2A8B6418000E525A /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C9FD5CDB2A8B630F000E525A /* ContentView.swift */,
+				65C6D9B42A8B8A7900FAF390 /* QuestionView */,
+				65C6D9B32A8B8A6400FAF390 /* ARView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -151,10 +190,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65C6D9A32A8B68EE00FAF390 /* Question1.rcproject in Sources */,
+				65C6D9AE2A8B7FE000FAF390 /* ViewContent.swift in Sources */,
+				65C6D9A52A8B695C00FAF390 /* Question2.rcproject in Sources */,
 				C9FD5CE32A8B6310000E525A /* Persistence.swift in Sources */,
-				C9FD5CDC2A8B630F000E525A /* ContentView.swift in Sources */,
 				C9FD5CE62A8B6310000E525A /* MC3_Mathopia.xcdatamodeld in Sources */,
 				C9FD5CDA2A8B630F000E525A /* MC3_MathopiaApp.swift in Sources */,
+				65C6D9AC2A8B7EA500FAF390 /* ARViewRepresentable.swift in Sources */,
+				65C6D9AA2A8B6ECA00FAF390 /* ARViewFactory.swift in Sources */,
+				65C6D9B22A8B830C00FAF390 /* FirstQuestionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +327,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MC3_Mathopia/Preview Content\"";
-				DEVELOPMENT_TEAM = GVC59RAZPM;
+				DEVELOPMENT_TEAM = X7UR8BGM9R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
@@ -313,7 +357,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MC3_Mathopia/Preview Content\"";
-				DEVELOPMENT_TEAM = GVC59RAZPM;
+				DEVELOPMENT_TEAM = X7UR8BGM9R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
