@@ -60,7 +60,7 @@ struct LandingPageView: View {
                                     .font(.system(size: 24))
                                     .foregroundColor(Color.orange)
                                     .fontWeight(.semibold)
-  
+                                
                             }
                             .padding()
                             .padding(.leading,8)
@@ -115,12 +115,12 @@ struct LandingPageView: View {
                                     
                                 }) {
                                     HStack{
-
+                                        
                                         Text("Start")
                                             .font(.system(size: 32))
                                             .foregroundColor(Color.white)
                                             .fontWeight(.semibold)
-          
+                                        
                                     }
                                     .padding()
                                     .padding(.leading,60)
@@ -131,36 +131,40 @@ struct LandingPageView: View {
                                 .padding(.leading,40)
                             }
                             
-                                
-                            
-                            
                         }
                         
-                        
-                        
-                        
-                    }.padding(.top,40)
+                        ZStack(alignment:.leading){
+                            Image("BG_Coming Soon")
+                                .resizable()
+                                .frame(width: 738,height:291)
+                                .cornerRadius(22)
+                            VStack (alignment: .leading){
+                                Text("Coming Soon")
+                                    .font(.system(size:64))
+                                    .fontWeight(.bold)
+                                    .foregroundColor(Color.white)
+                                    .padding(.leading,40)
+                                    .padding(.bottom, 8)
+                                
+                                
+           
+                            }
+   
+                        }
+ 
+                    }.padding(.top,30)
                     
-                }.padding(.bottom,900)
+                }.padding(.bottom,70)
                 
                     .background()
                     .cornerRadius(50, corners: [.topLeft, .topRight])
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+    
                 //                .frame(height: 300)
             }.background(Color.blue)
-            
-            
+                .padding(.bottom,-30)
+     
         }
-        //            .navigationBarHidden(true)
+       .navigationBarHidden(true)
         
     }
 }
