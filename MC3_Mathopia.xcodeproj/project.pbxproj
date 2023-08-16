@@ -15,6 +15,7 @@
 		C9FD5CE32A8B6310000E525A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FD5CE22A8B6310000E525A /* Persistence.swift */; };
 		C9FD5CE62A8B6310000E525A /* MC3_Mathopia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9FD5CE42A8B6310000E525A /* MC3_Mathopia.xcdatamodeld */; };
 		FFF4E9E72A8CC6A600174E75 /* LandingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF4E9E62A8CC6A600174E75 /* LandingPageView.swift */; };
+		FFF4E9E92A8CDCA600174E75 /* AchievementSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF4E9E82A8CDCA600174E75 /* AchievementSheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		C9FD5CE22A8B6310000E525A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		C9FD5CE52A8B6310000E525A /* MC3_Mathopia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MC3_Mathopia.xcdatamodel; sourceTree = "<group>"; };
 		FFF4E9E62A8CC6A600174E75 /* LandingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageView.swift; sourceTree = "<group>"; };
+		FFF4E9E82A8CDCA600174E75 /* AchievementSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementSheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				C9FD5CDB2A8B630F000E525A /* ContentView.swift */,
 				C99D0C272A8CC4B40004D826 /* StageView.swift */,
 				FFF4E9E62A8CC6A600174E75 /* LandingPageView.swift */,
+				FFF4E9E82A8CDCA600174E75 /* AchievementSheetView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFF4E9E92A8CDCA600174E75 /* AchievementSheetView.swift in Sources */,
 				C99D0C282A8CC4B40004D826 /* StageView.swift in Sources */,
 				FFF4E9E72A8CC6A600174E75 /* LandingPageView.swift in Sources */,
 				C9FD5CE32A8B6310000E525A /* Persistence.swift in Sources */,

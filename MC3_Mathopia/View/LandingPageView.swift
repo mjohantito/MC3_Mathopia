@@ -27,15 +27,15 @@ extension View {
 
 struct LandingPageView: View {
     
+    @State var showSheet = false
+    @Environment(\.dismiss) private var dismiss
     
     var body: some View {
-        
-        
+
         NavigationStack {
             
             // Blue Bar
-            
-            
+
             ScrollView{
                 ZStack{
                     HStack{
@@ -44,9 +44,9 @@ struct LandingPageView: View {
                             .foregroundColor(Color.white)
                             .fontWeight(.bold)
                         Spacer()
-                        Button(action: {
-                            
-                        }) {
+                        Button{
+                            showSheet.toggle()
+                        }label: {
                             HStack{
                                 Image("Trophy_Icon")
                                     .resizable()
@@ -67,6 +67,9 @@ struct LandingPageView: View {
                             .padding(.trailing,8)
                             .background()
                             .cornerRadius(16)
+                            .sheet(isPresented: $showSheet){
+                                AchievementSheetView()
+                            }
                         }
                         
                         
@@ -75,8 +78,8 @@ struct LandingPageView: View {
                     .padding(48)
                     
                 }.padding(.top,-20)
-                    .background(Color.blue)
-                    .zIndex(0)
+                //                    .background(Color.blue)
+                //                    .zIndex(0)
                 
                 //White Bar
                 ScrollView{
@@ -147,24 +150,24 @@ struct LandingPageView: View {
                                     .padding(.bottom, 8)
                                 
                                 
-           
+                                
                             }
-   
+                            
                         }
- 
+                        
                     }.padding(.top,30)
                     
                 }.padding(.bottom,70)
                 
                     .background()
                     .cornerRadius(50, corners: [.topLeft, .topRight])
-    
+                
                 //                .frame(height: 300)
             }.background(Color.blue)
                 .padding(.bottom,-30)
-     
+            
         }
-       .navigationBarHidden(true)
+        .navigationBarHidden(true)
         
     }
 }
