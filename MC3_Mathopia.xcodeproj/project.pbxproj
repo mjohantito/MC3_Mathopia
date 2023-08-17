@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C94E77642A8E8BD4006DC4E7 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94E77632A8E8BD4006DC4E7 /* DrawingView.swift */; };
 		C99D0C282A8CC4B40004D826 /* StageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99D0C272A8CC4B40004D826 /* StageView.swift */; };
 		C99D0C2D2A8CD6FD0004D826 /* LevelingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99D0C2C2A8CD6FD0004D826 /* LevelingModel.swift */; };
+		C99D0C312A8E86300004D826 /* DrawingCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99D0C302A8E86300004D826 /* DrawingCanvasView.swift */; };
+		C99D0C342A8E869C0004D826 /* DrawingCanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99D0C332A8E869C0004D826 /* DrawingCanvasViewController.swift */; };
+		C99D0C362A8E86D30004D826 /* MNISTClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C99D0C352A8E86D30004D826 /* MNISTClassifier.mlmodel */; };
+		C99D0C382A8E86ED0004D826 /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99D0C372A8E86ED0004D826 /* Classifier.swift */; };
 		C9FD5CDA2A8B630F000E525A /* MC3_MathopiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FD5CD92A8B630F000E525A /* MC3_MathopiaApp.swift */; };
 		C9FD5CDC2A8B630F000E525A /* [UNUSED]ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FD5CDB2A8B630F000E525A /* [UNUSED]ContentView.swift */; };
 		C9FD5CDE2A8B6310000E525A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9FD5CDD2A8B6310000E525A /* Assets.xcassets */; };
@@ -19,8 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C94E77632A8E8BD4006DC4E7 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		C99D0C272A8CC4B40004D826 /* StageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageView.swift; sourceTree = "<group>"; };
 		C99D0C2C2A8CD6FD0004D826 /* LevelingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelingModel.swift; sourceTree = "<group>"; };
+		C99D0C302A8E86300004D826 /* DrawingCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingCanvasView.swift; sourceTree = "<group>"; };
+		C99D0C332A8E869C0004D826 /* DrawingCanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingCanvasViewController.swift; sourceTree = "<group>"; };
+		C99D0C352A8E86D30004D826 /* MNISTClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MNISTClassifier.mlmodel; sourceTree = "<group>"; };
+		C99D0C372A8E86ED0004D826 /* Classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
 		C9FD5CD62A8B630F000E525A /* MC3_Mathopia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MC3_Mathopia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9FD5CD92A8B630F000E525A /* MC3_MathopiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MC3_MathopiaApp.swift; sourceTree = "<group>"; };
 		C9FD5CDB2A8B630F000E525A /* [UNUSED]ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[UNUSED]ContentView.swift"; sourceTree = "<group>"; };
@@ -45,9 +55,20 @@
 		C99D0C2B2A8CD6650004D826 /* ModelFolder */ = {
 			isa = PBXGroup;
 			children = (
+				C99D0C352A8E86D30004D826 /* MNISTClassifier.mlmodel */,
 				C99D0C2C2A8CD6FD0004D826 /* LevelingModel.swift */,
+				C99D0C372A8E86ED0004D826 /* Classifier.swift */,
 			);
 			path = ModelFolder;
+			sourceTree = "<group>";
+		};
+		C99D0C322A8E867A0004D826 /* ViewControllerFolder */ = {
+			isa = PBXGroup;
+			children = (
+				C99D0C332A8E869C0004D826 /* DrawingCanvasViewController.swift */,
+				C99D0C302A8E86300004D826 /* DrawingCanvasView.swift */,
+			);
+			path = ViewControllerFolder;
 			sourceTree = "<group>";
 		};
 		C9FD5CCD2A8B630F000E525A = {
@@ -70,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				C9FD5CD92A8B630F000E525A /* MC3_MathopiaApp.swift */,
+				C99D0C322A8E867A0004D826 /* ViewControllerFolder */,
 				C99D0C2B2A8CD6650004D826 /* ModelFolder */,
 				C9FD5CEC2A8B6418000E525A /* View */,
 				C9FD5CDD2A8B6310000E525A /* Assets.xcassets */,
@@ -94,6 +116,7 @@
 				C9FD5CDB2A8B630F000E525A /* [UNUSED]ContentView.swift */,
 				C99D0C272A8CC4B40004D826 /* StageView.swift */,
 				FFF4E9E62A8CC6A600174E75 /* LandingPageView.swift */,
+				C94E77632A8E8BD4006DC4E7 /* DrawingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -168,13 +191,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C99D0C342A8E869C0004D826 /* DrawingCanvasViewController.swift in Sources */,
 				C99D0C282A8CC4B40004D826 /* StageView.swift in Sources */,
 				FFF4E9E72A8CC6A600174E75 /* LandingPageView.swift in Sources */,
+				C94E77642A8E8BD4006DC4E7 /* DrawingView.swift in Sources */,
 				C9FD5CE32A8B6310000E525A /* Persistence.swift in Sources */,
 				C9FD5CDC2A8B630F000E525A /* [UNUSED]ContentView.swift in Sources */,
 				C99D0C2D2A8CD6FD0004D826 /* LevelingModel.swift in Sources */,
+				C99D0C312A8E86300004D826 /* DrawingCanvasView.swift in Sources */,
+				C99D0C382A8E86ED0004D826 /* Classifier.swift in Sources */,
 				C9FD5CE62A8B6310000E525A /* MC3_Mathopia.xcdatamodeld in Sources */,
 				C9FD5CDA2A8B630F000E525A /* MC3_MathopiaApp.swift in Sources */,
+				C99D0C362A8E86D30004D826 /* MNISTClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

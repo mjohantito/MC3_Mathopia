@@ -24,7 +24,7 @@ struct StageView: View {
     var LevelSubtitle3 = "Numbers 2"
     var LevelSubtitle4 = "Think Number"
     
-    
+    @Environment(\.presentationMode) var presentationMode
     
     
     var body: some View {
@@ -41,8 +41,9 @@ struct StageView: View {
                 VStack{
                     
                     ZStack{
+                        //back
                         Button(action: {
-                            
+                            self.presentationMode.wrappedValue.dismiss()
                         }) {
                             ZStack{
                                 Rectangle()
@@ -242,6 +243,11 @@ struct StageView: View {
         }
         
     }
+    // add function to open nextview, with return what level to open
+//    func openstageview(level: Int) -> Int{
+//        NavigationLink(destination: DrawingView())
+//        return level
+//    }
 }
 
 struct StageView_Previews: PreviewProvider {

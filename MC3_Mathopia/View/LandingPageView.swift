@@ -114,7 +114,7 @@ struct LandingPageView: View {
                                     .padding(.leading,40)
                                     .padding(.bottom,140)
                                 
-                                NavigationLink(destination: StageView()){
+                                NavigationLink(destination: StageView(lvl1: true, lvl2: true, lvl3: true, lvl4: false).navigationBarBackButtonHidden(true)){
                                     HStack{
                                         
                                         Text("Start")
