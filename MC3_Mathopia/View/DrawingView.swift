@@ -23,33 +23,55 @@ struct DrawingView: View {
     
     @State var predictednumber: String = ""
     
+    @State var level: Int = 0
+    
+    let ans = ["1","2","3","4"]
+    
     
 //    @State var predictednumber: Int?
     
     var body: some View {
         NavigationStack{
-            DrawingCanvasView(data: data ?? Data(), id: id ?? UUID())
-            .frame(width: 500, height: 500)
-            .background(.red)
-                .environment(\.managedObjectContext, viewContext)
-                .navigationTitle(title ?? "Untitled")
-            Button(action: {
-//                DrawingCanvasViewController.shared.preprocessImage()
-                DrawingCanvasViewController.shared.preprocessImage(){ hasil in
-                    predictednumber = hasil
+            ZStack{
+                
+                
+                // Drawing View
+                Group{
+                    DrawingCanvasView(data: data ?? Data(), id: id ?? UUID())
+                    .frame(width: 300, height: 400)
+                    .background(.red)
+                        .environment(\.managedObjectContext, viewContext)
+                        .navigationTitle(title ?? "Untitled")
+                        .cornerRadius(50)
+        //                .position(x:0, y:0)
+                    Button(action: {
+        //                DrawingCanvasViewController.shared.preprocessImage()
+                        DrawingCanvasViewController.shared.preprocessImage(){ hasil in
+                            predictednumber = hasil
+                        }
+        //                predictednumber = classifier.imageClass ?? ""
+                        
+                        
+                    }, label: {
+                        Text("Check")
+                    })
+                    .onChange(of: DrawingCanvasViewController.shared.classifier.results) { newValue in
+        //                print("new :\(newValue)")
+                        predictednumber = newValue ?? ""
+                        if newValue == ans[level] {
+                            print("Jawaban benar")
+                            print(level)
+                            // clear jawaban, clear canvas, balik ke stage view, buka level berikutnya yang true
+                        }else {
+                            print("jawaban salah")
+                            print(level)
+                        }
+                    }
+                    
+//                    Text("Predicted Number : \(predictednumber)")
                 }
-//                predictednumber = classifier.imageClass ?? ""
-                
-                
-            }, label: {
-                Text("Check")
-            })
-            .onChange(of: DrawingCanvasViewController.shared.classifier.results) { newValue in
-                print("new :\(newValue)")
-                predictednumber = newValue ?? ""
             }
             
-            Text("Predicted Number : \(predictednumber)")
                 
 //            Group {
 //                if let imageClass = classifier.imageClass {
@@ -70,6 +92,6 @@ struct DrawingView: View {
 
 struct DrawingView_Previews: PreviewProvider {
     static var previews: some View {
-        DrawingView()
+        DrawingView(level: 0)
     }
 }
