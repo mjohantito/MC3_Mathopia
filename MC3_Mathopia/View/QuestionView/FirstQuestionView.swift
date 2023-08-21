@@ -11,17 +11,30 @@ import RealityKit
 
 
 //AR View
-struct FirstQuestion: UIViewRepresentable {
+struct FirstQuestion: UIViewControllerRepresentable {
+    func makeUIViewController(context: Context) -> ARViewFactory {
+        let viewFactory = ARViewFactory()
+        viewFactory.level = "satu"
+        return viewFactory
+    }
+    
+    func updateUIViewController(_ uiViewController: ARViewFactory, context: Context) {
+        
+    }
+    
+    typealias UIViewControllerType = ARViewFactory
+    
     func makeCoordinator() -> Coordinator {
         return Coordinator()
     }
     
     
-    func makeUIView(context: Context) -> ARView {
-        let viewFactory = ARViewFactory()
-        viewFactory.level = "satu"
-        return viewFactory.arView
-    }
+//    func makeUIView(context: Context) -> ARView {
+//        let viewFactory = ARViewFactory()
+//        viewFactory.level = "satu"
+//        print("satuan")
+//        return viewFactory.arView
+//    }
     
     
     class Coordinator: NSObject, ARSessionDelegate {
@@ -29,10 +42,10 @@ struct FirstQuestion: UIViewRepresentable {
         let anchor = AnchorEntity()
     }
     
-    
-    func updateUIView(_ uiView: ARView, context: Context) {
-        
-    }
+//
+//    func updateUIView(_ uiView: ARView, context: Context) {
+//
+//    }
 }
 
 struct FirstQuestionView: View {
@@ -75,7 +88,8 @@ struct FirstQuestionView: View {
                     HStack{
                         Button("Back") {
                             dismiss()
-                        }
+                        }.frame(width: 100, height: 100)
+                            .background(.red)
                         Spacer()
                     }
                     Spacer()

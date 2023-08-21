@@ -23,6 +23,9 @@ class ARViewFactory: UIViewController, ARSessionDelegate{
         self.arView.session.delegate = self
         
         
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
         var timerCreate = Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(createEntity), userInfo: nil, repeats: false)
     }
     
