@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-
+		C945693E2A935EF600C251E7 /* ARViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C945693D2A935EF600C251E7 /* ARViewFactory.swift */; };
+		C94569442A935FEF00C251E7 /* Question1.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = C94569422A935FEF00C251E7 /* Question1.rcproject */; };
+		C94569452A935FEF00C251E7 /* Question2.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = C94569432A935FEF00C251E7 /* Question2.rcproject */; };
+		C94569472A93601D00C251E7 /* ARViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94569462A93601D00C251E7 /* ARViewRepresentable.swift */; };
+		C94569492A93603F00C251E7 /* FirstQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94569482A93603F00C251E7 /* FirstQuestionView.swift */; };
 		C94E77642A8E8BD4006DC4E7 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94E77632A8E8BD4006DC4E7 /* DrawingView.swift */; };
-
-		65C6D9B82A91243400FAF390 /* ARViewFactoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C6D9B72A91243400FAF390 /* ARViewFactoryTest.swift */; };
-		65C6D9BA2A91247600FAF390 /* ARViewRepresentableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C6D9B92A91247600FAF390 /* ARViewRepresentableTest.swift */; };
-		65C6D9BC2A9124B300FAF390 /* Question1.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 65C6D9BB2A9124B300FAF390 /* Question1.rcproject */; };
-		65C6D9C02A9125D600FAF390 /* Question2.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 65C6D9BF2A9125D600FAF390 /* Question2.rcproject */; };
-
 		C99D0C282A8CC4B40004D826 /* StageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99D0C272A8CC4B40004D826 /* StageView.swift */; };
 		C99D0C2D2A8CD6FD0004D826 /* LevelingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99D0C2C2A8CD6FD0004D826 /* LevelingModel.swift */; };
 		C99D0C312A8E86300004D826 /* DrawingCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99D0C302A8E86300004D826 /* DrawingCanvasView.swift */; };
@@ -22,7 +20,6 @@
 		C99D0C362A8E86D30004D826 /* MNISTClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C99D0C352A8E86D30004D826 /* MNISTClassifier.mlmodel */; };
 		C99D0C382A8E86ED0004D826 /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99D0C372A8E86ED0004D826 /* Classifier.swift */; };
 		C9FD5CDA2A8B630F000E525A /* MC3_MathopiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FD5CD92A8B630F000E525A /* MC3_MathopiaApp.swift */; };
-		C9FD5CDC2A8B630F000E525A /* [UNUSED]ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FD5CDB2A8B630F000E525A /* [UNUSED]ContentView.swift */; };
 		C9FD5CDE2A8B6310000E525A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9FD5CDD2A8B6310000E525A /* Assets.xcassets */; };
 		C9FD5CE12A8B6310000E525A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9FD5CE02A8B6310000E525A /* Preview Assets.xcassets */; };
 		C9FD5CE32A8B6310000E525A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FD5CE22A8B6310000E525A /* Persistence.swift */; };
@@ -31,14 +28,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-
+		C945693D2A935EF600C251E7 /* ARViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewFactory.swift; sourceTree = "<group>"; };
+		C94569422A935FEF00C251E7 /* Question1.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Question1.rcproject; sourceTree = "<group>"; };
+		C94569432A935FEF00C251E7 /* Question2.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Question2.rcproject; sourceTree = "<group>"; };
+		C94569462A93601D00C251E7 /* ARViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewRepresentable.swift; sourceTree = "<group>"; };
+		C94569482A93603F00C251E7 /* FirstQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstQuestionView.swift; sourceTree = "<group>"; };
 		C94E77632A8E8BD4006DC4E7 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
-
-		65C6D9B72A91243400FAF390 /* ARViewFactoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewFactoryTest.swift; sourceTree = "<group>"; };
-		65C6D9B92A91247600FAF390 /* ARViewRepresentableTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewRepresentableTest.swift; sourceTree = "<group>"; };
-		65C6D9BB2A9124B300FAF390 /* Question1.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Question1.rcproject; sourceTree = "<group>"; };
-		65C6D9BF2A9125D600FAF390 /* Question2.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Question2.rcproject; sourceTree = "<group>"; };
-
 		C99D0C272A8CC4B40004D826 /* StageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageView.swift; sourceTree = "<group>"; };
 		C99D0C2C2A8CD6FD0004D826 /* LevelingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelingModel.swift; sourceTree = "<group>"; };
 		C99D0C302A8E86300004D826 /* DrawingCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingCanvasView.swift; sourceTree = "<group>"; };
@@ -47,7 +42,6 @@
 		C99D0C372A8E86ED0004D826 /* Classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
 		C9FD5CD62A8B630F000E525A /* MC3_Mathopia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MC3_Mathopia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9FD5CD92A8B630F000E525A /* MC3_MathopiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MC3_MathopiaApp.swift; sourceTree = "<group>"; };
-		C9FD5CDB2A8B630F000E525A /* [UNUSED]ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[UNUSED]ContentView.swift"; sourceTree = "<group>"; };
 		C9FD5CDD2A8B6310000E525A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9FD5CE02A8B6310000E525A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C9FD5CE22A8B6310000E525A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -66,6 +60,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C94569412A935F3900C251E7 /* 3D Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "3D Model";
+			sourceTree = "<group>";
+		};
 		C99D0C2B2A8CD6650004D826 /* ModelFolder */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +105,9 @@
 		C9FD5CD82A8B630F000E525A /* MC3_Mathopia */ = {
 			isa = PBXGroup;
 			children = (
+				C94569412A935F3900C251E7 /* 3D Model */,
+				C94569422A935FEF00C251E7 /* Question1.rcproject */,
+				C94569432A935FEF00C251E7 /* Question2.rcproject */,
 				C9FD5CD92A8B630F000E525A /* MC3_MathopiaApp.swift */,
 				C99D0C322A8E867A0004D826 /* ViewControllerFolder */,
 				C99D0C2B2A8CD6650004D826 /* ModelFolder */,
@@ -112,8 +116,6 @@
 				C9FD5CE22A8B6310000E525A /* Persistence.swift */,
 				C9FD5CE42A8B6310000E525A /* MC3_Mathopia.xcdatamodeld */,
 				C9FD5CDF2A8B6310000E525A /* Preview Content */,
-				65C6D9BB2A9124B300FAF390 /* Question1.rcproject */,
-				65C6D9BF2A9125D600FAF390 /* Question2.rcproject */,
 			);
 			path = MC3_Mathopia;
 			sourceTree = "<group>";
@@ -129,10 +131,12 @@
 		C9FD5CEC2A8B6418000E525A /* View */ = {
 			isa = PBXGroup;
 			children = (
-
 				C99D0C272A8CC4B40004D826 /* StageView.swift */,
 				FFF4E9E62A8CC6A600174E75 /* LandingPageView.swift */,
 				C94E77632A8E8BD4006DC4E7 /* DrawingView.swift */,
+				C945693D2A935EF600C251E7 /* ARViewFactory.swift */,
+				C94569462A93601D00C251E7 /* ARViewRepresentable.swift */,
+				C94569482A93603F00C251E7 /* FirstQuestionView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -208,19 +212,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				C99D0C342A8E869C0004D826 /* DrawingCanvasViewController.swift in Sources */,
+				C94569442A935FEF00C251E7 /* Question1.rcproject in Sources */,
+				C94569472A93601D00C251E7 /* ARViewRepresentable.swift in Sources */,
 				C99D0C282A8CC4B40004D826 /* StageView.swift in Sources */,
-				65C6D9C02A9125D600FAF390 /* Question2.rcproject in Sources */,
 				FFF4E9E72A8CC6A600174E75 /* LandingPageView.swift in Sources */,
 				C94E77642A8E8BD4006DC4E7 /* DrawingView.swift in Sources */,
 				C9FD5CE32A8B6310000E525A /* Persistence.swift in Sources */,
-				C9FD5CDC2A8B630F000E525A /* [UNUSED]ContentView.swift in Sources */,
 				C99D0C2D2A8CD6FD0004D826 /* LevelingModel.swift in Sources */,
 				C99D0C312A8E86300004D826 /* DrawingCanvasView.swift in Sources */,
 				C99D0C382A8E86ED0004D826 /* Classifier.swift in Sources */,
 				C9FD5CE62A8B6310000E525A /* MC3_Mathopia.xcdatamodeld in Sources */,
 				C9FD5CDA2A8B630F000E525A /* MC3_MathopiaApp.swift in Sources */,
+				C94569452A935FEF00C251E7 /* Question2.rcproject in Sources */,
+				C94569492A93603F00C251E7 /* FirstQuestionView.swift in Sources */,
 				C99D0C362A8E86D30004D826 /* MNISTClassifier.mlmodel in Sources */,
-
+				C945693E2A935EF600C251E7 /* ARViewFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

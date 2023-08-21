@@ -17,10 +17,7 @@ struct StageView: View {
     let LevelTitle = ["Level 1", "Level 2", "Level 3", "Level 4"]
     let LevelSubtitle = ["Intro to Numbers", "Numbers 1", "Numbers 2", "Think Number"]
     
-    var LevelSubtitle1 = "Intro to Numbers"
-    var LevelSubtitle2 = "Numbers 1"
-    var LevelSubtitle3 = "Numbers 2"
-    var LevelSubtitle4 = "Think Number"
+    
     
     @Environment(\.presentationMode) var presentationMode
     

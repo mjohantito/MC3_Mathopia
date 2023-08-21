@@ -25,7 +25,7 @@ struct DrawingView: View {
     
     @State var level: Int = 0
     
-    let ans = ["1","2","3","4"]
+    let ans = ["8","6","3","4"]
     
     
 //    @State var predictednumber: Int?
@@ -48,6 +48,14 @@ struct DrawingView: View {
         //                DrawingCanvasViewController.shared.preprocessImage()
                         DrawingCanvasViewController.shared.preprocessImage(){ hasil in
                             predictednumber = hasil
+                            if predictednumber == ans[level] {
+                                print("Jawaban benar atas")
+                                print(level)
+                                // clear jawaban, clear canvas, balik ke stage view, buka level berikutnya yang true
+                            }else {
+                                print("jawaban salah atas")
+                                print(level)
+                            }
                         }
         //                predictednumber = classifier.imageClass ?? ""
                         
