@@ -9,8 +9,6 @@ import SwiftUI
 
 struct DrawingView: View {
     
-    
-    
 //    @ObservedObject var classifier: ImageClassifier
     
     @Environment(\.managedObjectContext) var viewContext
@@ -38,12 +36,12 @@ struct DrawingView: View {
                 // Drawing View
                 Group{
                     DrawingCanvasView(data: data ?? Data(), id: id ?? UUID())
-                    .frame(width: 300, height: 400)
-                    .background(.red)
+                        .frame(width: 300, height: 400)
+                        .background(.red)
                         .environment(\.managedObjectContext, viewContext)
-                        .navigationTitle(title ?? "Untitled")
+                    //                        .navigationTitle(title ?? "Untitled")
                         .cornerRadius(50)
-        //                .position(x:0, y:0)
+                    //                .position(x:0, y:0)
                     Button(action: {
         //                DrawingCanvasViewController.shared.preprocessImage()
                         DrawingCanvasViewController.shared.preprocessImage(){ hasil in
@@ -61,20 +59,20 @@ struct DrawingView: View {
                         
                         
                     }, label: {
-                        Text("Check")
+//                        Text("Check")
                     })
-                    .onChange(of: DrawingCanvasViewController.shared.classifier.results) { newValue in
-        //                print("new :\(newValue)")
-                        predictednumber = newValue ?? ""
-                        if newValue == ans[level] {
-                            print("Jawaban benar")
-                            print(level)
-                            // clear jawaban, clear canvas, balik ke stage view, buka level berikutnya yang true
-                        }else {
-                            print("jawaban salah")
-                            print(level)
-                        }
-                    }
+//                    .onChange(of: DrawingCanvasViewController.shared.classifier.results) { newValue in
+//        //                print("new :\(newValue)")
+//                        predictednumber = newValue ?? ""
+//                        if newValue == ans[level] {
+//                            print("Jawaban benar")
+//                            print(level)
+//                            // clear jawaban, clear canvas, balik ke stage view, buka level berikutnya yang true
+//                        }else {
+//                            print("jawaban salah")
+//                            print(level)
+//                        }
+//                    }
                     
 //                    Text("Predicted Number : \(predictednumber)")
                 }
@@ -97,6 +95,8 @@ struct DrawingView: View {
         }
     }
 }
+
+
 
 struct DrawingView_Previews: PreviewProvider {
     static var previews: some View {

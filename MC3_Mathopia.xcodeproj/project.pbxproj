@@ -12,6 +12,10 @@
 		C94569452A935FEF00C251E7 /* Question2.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = C94569432A935FEF00C251E7 /* Question2.rcproject */; };
 		C94569472A93601D00C251E7 /* ARViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94569462A93601D00C251E7 /* ARViewRepresentable.swift */; };
 		C94569492A93603F00C251E7 /* FirstQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94569482A93603F00C251E7 /* FirstQuestionView.swift */; };
+		C945694B2A937A7100C251E7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C945694A2A937A7100C251E7 /* Extensions.swift */; };
+		C945694D2A949C0900C251E7 /* AchievementSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C945694C2A949C0900C251E7 /* AchievementSheetView.swift */; };
+		C94569502A94A41A00C251E7 /* PopUpWrongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C945694F2A94A41A00C251E7 /* PopUpWrongView.swift */; };
+		C94569522A94A43500C251E7 /* PopUpCorrectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94569512A94A43500C251E7 /* PopUpCorrectView.swift */; };
 		C94E77642A8E8BD4006DC4E7 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94E77632A8E8BD4006DC4E7 /* DrawingView.swift */; };
 		C99D0C282A8CC4B40004D826 /* StageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99D0C272A8CC4B40004D826 /* StageView.swift */; };
 		C99D0C2D2A8CD6FD0004D826 /* LevelingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99D0C2C2A8CD6FD0004D826 /* LevelingModel.swift */; };
@@ -33,6 +37,10 @@
 		C94569432A935FEF00C251E7 /* Question2.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Question2.rcproject; sourceTree = "<group>"; };
 		C94569462A93601D00C251E7 /* ARViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewRepresentable.swift; sourceTree = "<group>"; };
 		C94569482A93603F00C251E7 /* FirstQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstQuestionView.swift; sourceTree = "<group>"; };
+		C945694A2A937A7100C251E7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C945694C2A949C0900C251E7 /* AchievementSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementSheetView.swift; sourceTree = "<group>"; };
+		C945694F2A94A41A00C251E7 /* PopUpWrongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpWrongView.swift; sourceTree = "<group>"; };
+		C94569512A94A43500C251E7 /* PopUpCorrectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpCorrectView.swift; sourceTree = "<group>"; };
 		C94E77632A8E8BD4006DC4E7 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		C99D0C272A8CC4B40004D826 /* StageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageView.swift; sourceTree = "<group>"; };
 		C99D0C2C2A8CD6FD0004D826 /* LevelingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelingModel.swift; sourceTree = "<group>"; };
@@ -65,6 +73,15 @@
 			children = (
 			);
 			path = "3D Model";
+			sourceTree = "<group>";
+		};
+		C945694E2A94A3FC00C251E7 /* Pop Up */ = {
+			isa = PBXGroup;
+			children = (
+				C945694F2A94A41A00C251E7 /* PopUpWrongView.swift */,
+				C94569512A94A43500C251E7 /* PopUpCorrectView.swift */,
+			);
+			path = "Pop Up";
 			sourceTree = "<group>";
 		};
 		C99D0C2B2A8CD6650004D826 /* ModelFolder */ = {
@@ -137,6 +154,9 @@
 				C945693D2A935EF600C251E7 /* ARViewFactory.swift */,
 				C94569462A93601D00C251E7 /* ARViewRepresentable.swift */,
 				C94569482A93603F00C251E7 /* FirstQuestionView.swift */,
+				C945694C2A949C0900C251E7 /* AchievementSheetView.swift */,
+				C945694A2A937A7100C251E7 /* Extensions.swift */,
+				C945694E2A94A3FC00C251E7 /* Pop Up */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -213,18 +233,22 @@
 			files = (
 				C99D0C342A8E869C0004D826 /* DrawingCanvasViewController.swift in Sources */,
 				C94569442A935FEF00C251E7 /* Question1.rcproject in Sources */,
+				C94569522A94A43500C251E7 /* PopUpCorrectView.swift in Sources */,
 				C94569472A93601D00C251E7 /* ARViewRepresentable.swift in Sources */,
 				C99D0C282A8CC4B40004D826 /* StageView.swift in Sources */,
+				C94569502A94A41A00C251E7 /* PopUpWrongView.swift in Sources */,
 				FFF4E9E72A8CC6A600174E75 /* LandingPageView.swift in Sources */,
 				C94E77642A8E8BD4006DC4E7 /* DrawingView.swift in Sources */,
 				C9FD5CE32A8B6310000E525A /* Persistence.swift in Sources */,
 				C99D0C2D2A8CD6FD0004D826 /* LevelingModel.swift in Sources */,
+				C945694D2A949C0900C251E7 /* AchievementSheetView.swift in Sources */,
 				C99D0C312A8E86300004D826 /* DrawingCanvasView.swift in Sources */,
 				C99D0C382A8E86ED0004D826 /* Classifier.swift in Sources */,
 				C9FD5CE62A8B6310000E525A /* MC3_Mathopia.xcdatamodeld in Sources */,
 				C9FD5CDA2A8B630F000E525A /* MC3_MathopiaApp.swift in Sources */,
 				C94569452A935FEF00C251E7 /* Question2.rcproject in Sources */,
 				C94569492A93603F00C251E7 /* FirstQuestionView.swift in Sources */,
+				C945694B2A937A7100C251E7 /* Extensions.swift in Sources */,
 				C99D0C362A8E86D30004D826 /* MNISTClassifier.mlmodel in Sources */,
 				C945693E2A935EF600C251E7 /* ARViewFactory.swift in Sources */,
 			);
@@ -362,8 +386,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -392,8 +416,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

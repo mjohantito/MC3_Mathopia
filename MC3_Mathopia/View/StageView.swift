@@ -68,7 +68,7 @@ struct StageView: View {
 
                     //circle circle
                     //level 1
-                    NavigationLink(destination: DrawingView(level: 0)){
+                    NavigationLink(destination: FirstQuestionView(stageLevel: 0)){
                         Group{
                             VStack{
                                 ZStack{
@@ -94,7 +94,7 @@ struct StageView: View {
                     
                     //level 2
                     if lvl2 == true {
-                        NavigationLink(destination: DrawingView(level: 1)){
+                        NavigationLink(destination: FirstQuestionView(stageLevel: 1)){
                             Group{
                                 VStack{
                                     ZStack{
@@ -142,7 +142,7 @@ struct StageView: View {
                     
                     //level 3
                     if lvl3 == true {
-                        NavigationLink(destination: DrawingView(level: 2)){
+                        NavigationLink(destination: FirstQuestionView(stageLevel: 2)){
                             Group{
                                 VStack{
                                     ZStack{
@@ -190,7 +190,7 @@ struct StageView: View {
                     
                     //level 4
                     if lvl4 == true {
-                        NavigationLink(destination: DrawingView(level: 3)){
+                        NavigationLink(destination: FirstQuestionView(stageLevel: 3)){
                             Group{
                                 VStack{
                                     ZStack{

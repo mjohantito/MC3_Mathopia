@@ -48,32 +48,30 @@ struct LandingPageView: View {
                             .foregroundColor(Color.white)
                             .fontWeight(.bold)
                         Spacer()
-                        Button(action: {
-                            
-                        }) {
-                            HStack{
-                                Image("Trophy_Icon")
-                                    .resizable()
-                                    .frame(maxWidth:40,maxHeight:40)
-                                    .padding(5)
-                                    .background(Color.yellow)
-                                    .cornerRadius(8)
-                                
-                                
-                                Text("Achievement")
-                                    .font(.system(size: 24))
-                                    .foregroundColor(Color.orange)
-                                    .fontWeight(.semibold)
-                                
+                        NavigationLink(destination: AchievementSheetView(level1Status: true, level2Status: true, level3Status: true, level4Status: true)) {
+                            Group {
+                                HStack{
+                                    Image("Trophy_Icon")
+                                        .resizable()
+                                        .frame(maxWidth:40,maxHeight:40)
+                                        .padding(5)
+                                        .background(Color.yellow)
+                                        .cornerRadius(8)
+                                    
+                                    
+                                    Text("Achievement")
+                                        .font(.system(size: 24))
+                                        .foregroundColor(Color.orange)
+                                        .fontWeight(.semibold)
+                                    
+                                }
+                                .padding()
+                                .padding(.leading,8)
+                                .padding(.trailing,8)
+                                .background()
+                                .cornerRadius(16)
                             }
-                            .padding()
-                            .padding(.leading,8)
-                            .padding(.trailing,8)
-                            .background()
-                            .cornerRadius(16)
                         }
-                        
-                        
                     }
                     
                     .padding(48)
